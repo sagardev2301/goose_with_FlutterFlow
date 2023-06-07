@@ -43,11 +43,8 @@ class _AddandShowPhotosState extends State<AddandShowPhotos> {
           if (!imagesName.contains(image.name)) {
             imagesToDisplay.add(image);
             imagesName.add(image.name);
+            widget.imageFileList.add(image.path);
           }
-        }
-
-        for (var image in imagesToDisplay) {
-          widget.imageFileList.add(image.path);
         }
 
         buttonName = 'Add more photos';

@@ -299,13 +299,33 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               ),
                                               Text(
                                                 dateTimeFormat(
-                                                  'relative',
-                                                  listViewPostsRecord
-                                                      .timePosted!,
-                                                  locale: FFLocalizations.of(
-                                                          context)
-                                                      .languageCode,
-                                                ),
+                                                          'relative',
+                                                          listViewPostsRecord
+                                                              .timePosted,
+                                                          locale:
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .languageCode,
+                                                        ) ==
+                                                        '8'
+                                                    ? dateTimeFormat(
+                                                        'yMMMd',
+                                                        listViewPostsRecord
+                                                            .timePosted!,
+                                                        locale:
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .languageCode,
+                                                      )
+                                                    : dateTimeFormat(
+                                                        'relative',
+                                                        listViewPostsRecord
+                                                            .timePosted!,
+                                                        locale:
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .languageCode,
+                                                      ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium,
