@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "967571163938",
+    "project_id": "gooseflutterflow",
+    "storage_bucket": "gooseflutterflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967571163938:android:2503f75ab9dba4453a737b",
+        "android_client_info": {
+          "package_name": "com.mycompany.goose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967571163938-5ml2c9uvrgam0nu92b54o34sa7vdfmbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLxVMcQNU4o1w1-7yhkrLxo_tvGgM53Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967571163938-5ml2c9uvrgam0nu92b54o34sa7vdfmbr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "967571163938-tj8tghecv94vcgghl9agr2et9hc55aq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.goose"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
