@@ -164,11 +164,11 @@ class _NavBarPageState extends State<NavBarPage> {
           _currentPage = null;
           _currentPageName = tabs.keys.toList()[i];
         }),
-        backgroundColor: Color(0xFF494646),
+        backgroundColor: Color(0xFF131010),
         selectedItemColor: Color(0xFFF0364C),
         unselectedItemColor: Colors.white,
         selectedBackgroundColor: Color(0x00000000),
-        borderRadius: 8.0,
+        borderRadius: 0.0,
         itemBorderRadius: 8.0,
         margin: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
         padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
