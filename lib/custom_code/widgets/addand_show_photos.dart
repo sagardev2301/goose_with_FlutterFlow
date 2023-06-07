@@ -38,16 +38,13 @@ class _AddandShowPhotosState extends State<AddandShowPhotos> {
   Future<void> selectImages() async {
     List<XFile>? imagesSelected = await picker.pickMultiImage();
     setState(() {
-      if (imagesSelected!.isNotEmpty) {
+      if (imagesSelected.isNotEmpty) {
         for (var image in imagesSelected) {
           if (!imagesName.contains(image.name)) {
             imagesToDisplay.add(image);
             imagesName.add(image.name);
+            widget.imageFileList.add(image.path);
           }
-        }
-
-        for (var image in imagesToDisplay) {
-          widget.imageFileList.add(image.path);
         }
 
         buttonName = 'Add more photos';
